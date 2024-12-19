@@ -94,7 +94,7 @@ const LandingPage = () => {
                 Download for macOS
               </a>
               <a
-                href="#learn-more"
+                href="https://github.com/firdous-wani/clipboard-manager"
                 className="px-8 h-12 flex items-center justify-center rounded-full border border-[#eaeaea] dark:border-[#333] text-sm font-medium hover:border-gray-300 dark:hover:border-gray-700 transition-colors dark:text-white"
               >
                 Learn More
