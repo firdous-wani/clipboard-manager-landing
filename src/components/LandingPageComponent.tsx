@@ -1,14 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
-import { useTheme } from "next-themes";
 import { ThemeSwitcher } from "./ThemeSwitcher";
 
 const LandingPage = () => {
-  const { theme, setTheme } = useTheme();
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const features = [
     {
       title: "Native Integration",
